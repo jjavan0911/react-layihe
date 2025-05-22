@@ -21,7 +21,7 @@ export default function Section1() {
 
   const fetchForMovie = (query) => {
     setIsLoading(true);
-    fetch(`https://www.omdbapi.com/?s=${query}&apikey=3f19a676`)
+    fetch(`https://www.omdbapi.com/?s=${query}&apikey=8j13b493`)
       .then((res) => res.json())
       .then((data) => {
         setMovies(data.Search || []);
